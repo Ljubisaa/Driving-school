@@ -9,10 +9,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
-import com.drivingschool.model.Role;
-import com.drivingschool.model.User;
-import com.drivingschool.model.UserRole;
-import com.drivingschool.service.UserService;
+
 
 @SpringBootApplication
 public class DrivingschoolserverApplication implements CommandLineRunner {
