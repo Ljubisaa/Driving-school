@@ -36,3 +36,4 @@ mvnw
 mvnw.cmd
 pom.xml
 .mvn/wrapper
+/src/main/resources
