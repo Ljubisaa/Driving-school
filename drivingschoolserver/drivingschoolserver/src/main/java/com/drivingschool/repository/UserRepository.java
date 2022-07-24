@@ -1,4 +1,4 @@
-package com.drivingschool.repo;
+package com.drivingschool.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

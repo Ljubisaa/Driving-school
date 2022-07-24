@@ -2,7 +2,7 @@ package com.drivingschool.service;
 
 import java.util.Set;
 
-import com.drivingschool.model.driving.Category;
+import com.drivingschool.entity.Category;
 
 
 public interface CategoryService {

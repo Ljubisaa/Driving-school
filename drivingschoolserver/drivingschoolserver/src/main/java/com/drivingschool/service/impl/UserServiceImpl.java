@@ -7,8 +7,8 @@ import org.springframework.stereotype.Service;
 
 import com.drivingschool.model.User;
 import com.drivingschool.model.UserRole;
-import com.drivingschool.repo.RoleRepository;
-import com.drivingschool.repo.UserRepository;
+import com.drivingschool.repository.RoleRepository;
+import com.drivingschool.repository.UserRepository;
 import com.drivingschool.service.UserService;
 
 @Service

@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.drivingschool.model.driving.Category;
+import com.drivingschool.entity.Category;
 import com.drivingschool.service.CategoryService;
 
 @RestController

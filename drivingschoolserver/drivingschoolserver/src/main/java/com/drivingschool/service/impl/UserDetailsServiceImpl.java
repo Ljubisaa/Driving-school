@@ -7,7 +7,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 import com.drivingschool.model.User;
-import com.drivingschool.repo.UserRepository;
+import com.drivingschool.repository.UserRepository;
 
 
 

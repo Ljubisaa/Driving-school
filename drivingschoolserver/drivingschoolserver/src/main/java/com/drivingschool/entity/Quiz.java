@@ -1,4 +1,4 @@
-package com.drivingschool.model.driving;
+package com.drivingschool.entity;
 
 import java.util.HashSet;
 import java.util.Set;

@@ -6,8 +6,8 @@ import java.util.Set;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.drivingschool.model.driving.Category;
-import com.drivingschool.repo.CategoryRepository;
+import com.drivingschool.entity.Category;
+import com.drivingschool.repository.CategoryRepository;
 import com.drivingschool.service.CategoryService;
 
 @Service

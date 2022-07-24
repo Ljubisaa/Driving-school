@@ -2,7 +2,7 @@ package com.drivingschool.service;
 
 import java.util.Set;
 
-import com.drivingschool.model.driving.Quiz;
+import com.drivingschool.entity.Quiz;
 
 public interface QuizService {
 

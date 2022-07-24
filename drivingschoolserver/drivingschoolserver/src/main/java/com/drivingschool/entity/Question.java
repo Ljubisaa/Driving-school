@@ -1,4 +1,4 @@
-package com.drivingschool.model.driving;
+package com.drivingschool.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

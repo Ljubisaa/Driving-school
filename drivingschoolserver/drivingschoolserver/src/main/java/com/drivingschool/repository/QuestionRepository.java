@@ -1,11 +1,11 @@
-package com.drivingschool.repo;
+package com.drivingschool.repository;
 
 import java.util.Set;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.drivingschool.model.driving.Question;
-import com.drivingschool.model.driving.Quiz;
+import com.drivingschool.entity.Question;
+import com.drivingschool.entity.Quiz;
 
 public interface QuestionRepository extends JpaRepository<Question, Long> {
 

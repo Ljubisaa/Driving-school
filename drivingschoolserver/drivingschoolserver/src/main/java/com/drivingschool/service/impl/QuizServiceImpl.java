@@ -6,8 +6,8 @@ import java.util.Set;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.drivingschool.model.driving.Quiz;
-import com.drivingschool.repo.QuizRepository;
+import com.drivingschool.entity.Quiz;
+import com.drivingschool.repository.QuizRepository;
 import com.drivingschool.service.QuizService;
 
 @Service

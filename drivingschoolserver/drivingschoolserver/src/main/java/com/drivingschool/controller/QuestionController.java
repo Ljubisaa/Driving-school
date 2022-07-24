@@ -17,8 +17,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.drivingschool.model.driving.Question;
-import com.drivingschool.model.driving.Quiz;
+import com.drivingschool.entity.Question;
+import com.drivingschool.entity.Quiz;
 import com.drivingschool.service.QuestionService;
 import com.drivingschool.service.QuizService;
 
