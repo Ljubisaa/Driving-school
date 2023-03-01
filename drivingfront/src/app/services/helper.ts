@@ -1,2 +1,2 @@
-let baseUrl = 'http://localhost:8080';
+let baseUrl = 'http://drivingschool-env.eba-nnjwzhug.us-east-1.elasticbeanstalk.com';
 export default baseUrl;
