@@ -58,6 +58,8 @@ public class QuestionController {
 		return ResponseEntity.ok(list);
 	}
 	
+	
+	
 	@GetMapping("/{quesId}")
 	public Question get(@PathVariable("quesId") Long quesId ) {
 		

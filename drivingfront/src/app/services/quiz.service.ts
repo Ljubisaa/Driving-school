@@ -40,4 +40,5 @@ export class QuizService {
   public getActiveQuizzesOfCategory(cid){
     return this._http.get(`${baseUrl}/quiz/category/active/${cid}`);
   }
+
 }

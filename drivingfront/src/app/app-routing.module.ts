@@ -13,6 +13,9 @@ import { SignupComponent } from './pages/signup/signup.component';
 import { UserDashboardComponent } from './pages/user/user-dashboard/user-dashboard.component';
 import { AdminGuard } from './services/admin.guard';
 import { NormalGuard } from './services/normal.guard';
+import { ViewQuizQuestionsComponent } from './pages/admin/view-quiz-questions/view-quiz-questions.component';
+import { UpdateQuizComponent } from './pages/admin/update-quiz/update-quiz.component';
+import { AddQuestionComponent } from './pages/admin/add-question/add-question.component';
 
 
 const routes: Routes = [
@@ -29,6 +32,9 @@ const routes: Routes = [
         { path: 'add-category', component: AddCategoryComponent },
         { path: 'quizzes', component: ViewQuizzesComponent },
         { path: 'add-quiz', component: AddQuizComponent },
+        { path: 'view-questions/:qid/:title', component: ViewQuizQuestionsComponent },
+        { path: 'quiz/:qid', component: UpdateQuizComponent},
+        { path: 'add-question/:qid/:title', component: AddQuestionComponent},
       ]
   },
   { path: 'user-dashboard', component: UserDashboardComponent, pathMatch: 'full', canActivate: [NormalGuard], },
